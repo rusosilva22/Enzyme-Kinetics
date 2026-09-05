@@ -1,15 +1,17 @@
 # Enzyme-Kinetics
-Copy and Pastable code for Kinetic modeling in MatLab
+Copy and Pastable code for Kinetic modeling in MatLab 
+Guide:
+1st order
 %% First-Order vs Full Michaelis-Menten Kinetics Simulation
-clear; clc; close all;
+Copy Starting from line 8
 
 % --- Kinetic Parameters ---
-Vmax = ;    % Maximum velocity (e.g., uM/min)
-Km   = ;    % Michaelis constant (e.g., uM)
-S0   = ;    % Initial substrate concentration (e.g., uM) -> Ensure S0 << Km for 1st order behavior
+Vmax = ;    % Maximum velocity (uM/min)
+Km   = ;    % Michaelis constant (uM)
+S0   = ;    % Initial substrate concentration (uM) -> Ensure S0 << Km for 1st order behavior
 
 % --- Time Vector ---
-tspan = [ ]; % Time range [start_time end_time] (e.g., [0 30])
+tspan = [ ]; % Time range [start_time end_time] 
 
 % --- First-Order Rate Constant ---
 % At [S] << Km, k_first_order = Vmax / Km
