@@ -1,4 +1,4 @@
-# Enzyme-Kinetics
+# 1st order Enzyme-Kinetics | MatLab Code
 Copy and Pastable code for Kinetic modeling in MatLab 
 Guide:
 1st order
